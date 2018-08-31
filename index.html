@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Basic Image Editor</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="picCrop.css">
+        <script src="/socket.io/socket.io.js"></script>
+        <script type="text/javascript" src="picCrop.js"></script>
+    </head>
+    <body>
+        
+        <h1>Image Editor</h1>
+        <h2>Just the Very Basics</h2>            
+        <p>Choose an image, drag the square box to desired location, and press the Upload bitton.</p>
+        <p>The server will crop the image and save it as a cropped image in the same location of the server file.</p>
+        <br><br>
+
+        <label for="FileBox">Choose a file: </label><input type="file" id="FileBox">
+        <p id="notification"></p>
+        <br><br>
+        
+        <button  type='button' id='UploadButton' class='Button'>Upload</button>
+                
+        <canvas id="previewCanvas" width="600" height="400"></canvas>        
+        
+    </body>
+</html>
