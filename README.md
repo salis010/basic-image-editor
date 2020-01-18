@@ -1,8 +1,8 @@
 # basic-image-editor
 
-# basic-image-editor
-
 ![](images/crop.png)
+
+(ig: naturallystefanie)
 
 The very basic starting point for an image editing functionality on a website.
 
